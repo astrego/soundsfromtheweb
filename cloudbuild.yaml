@@ -7,6 +7,6 @@ steps:
         '-r',
         '-c',
         '-d',
-        './build',
+        './dist',
         'gs://www.soundsfromtheweb.com',
       ]
