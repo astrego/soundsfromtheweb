@@ -25,5 +25,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npx -p parcel-bundler parcel build test/*.html
+      - run: npm run build --if-present
       - run: npm test
